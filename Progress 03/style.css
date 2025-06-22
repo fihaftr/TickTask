@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Hide form container by default */
+#taskForm.d-none {
+  display: none;
+}
+
+/* Input and textarea styling to match lo-fi look */
+input,
+textarea,
+select {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+/* Remove default border-radius if needed */
+input,
+textarea,
+select,
+button {
+  border-radius: 0 !important;
+}
